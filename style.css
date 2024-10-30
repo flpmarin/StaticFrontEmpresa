@@ -10,7 +10,7 @@ header {
     flex-direction: column;
     align-items: center;
     background: linear-gradient(rgba(98, 108, 164, 0.5), rgba(20, 29, 156, 0.336)), 
-    url('/recursos/images/welcome-hero/welcome-banner.jpg') no-repeat center center;
+    url('recursos/images/welcome-hero/welcome-banner.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -38,6 +38,45 @@ nav{
     gap: 30px;
     font-weight: 600;
     justify-content: center;
+}
+
+.form-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menuBtn{
+
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 90%;
+    box-shadow: 0.5px 0.5px 10px 1px gray;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px;
+    gap: 20px;
+}
+input{
+    padding: 5px;
+}
+select{
+    padding: 10px;
+    width: 130px;
+    background-color: rgb(241, 237, 237);
+    border: none;
+    border-radius: 3px;
+    color: gray;
+}
+
+.cajaInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
 }
 
 li{
@@ -189,5 +228,26 @@ main{
     font-weight: 500;
     font-size: 25px;
     color: gray;
+}
+
+.blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.cars{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid green;
+    width: 180px;
+}
+
+.cuadroCar{
+    display: flex;
+    border: 2px solid rgb(75, 75, 221);
+
 }
 
