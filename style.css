@@ -50,7 +50,7 @@ nav{
 
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 90%;
+    top: 125%;
     box-shadow: 0.5px 0.5px 10px 1px gray;
     border-radius: 3px;
     display: flex;
@@ -60,11 +60,12 @@ nav{
     padding: 25px;
     gap: 20px;
 }
+
 input{
     padding: 5px;
 }
 select{
-    padding: 10px;
+    padding: 13px;
     width: 130px;
     background-color: rgb(241, 237, 237);
     border: none;
@@ -72,11 +73,19 @@ select{
     color: gray;
 }
 
-.cajaInputs{
+.cajaSelects{
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 10px;
+}
+
+.selectUnico{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    gap: 10px;
+    font-weight: 100;
 }
 
 li{
@@ -160,8 +169,18 @@ main{
     border: 2px solid red;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 20px; 
 }
+
+@media (max-width:600px) {
+    .cardsOne {
+      margin-top: 350px; 
+    }
+    .menuBtn {
+        max-width: 300px; 
+      }
+}
+
 
 .features{
     display: flex;
