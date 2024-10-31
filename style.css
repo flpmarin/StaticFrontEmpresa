@@ -166,7 +166,6 @@ main{
     display: flex;
     flex-wrap: wrap;
     padding: 200px 50px 100px 50px;
-    border: 2px solid red;
     justify-content: center;
     align-items: center;
     gap: 20px; 
@@ -202,6 +201,7 @@ main{
     flex-direction: column;
     align-items: center;
     padding: 70px;
+    background-color: rgb(232, 232, 232);
     
 }
 
@@ -255,19 +255,17 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
     gap: 20px;
+    padding: 100px 0px 100px 0px;
 }
 
 .subti{
-    border: 1px solid gray;
     width: 100%;
     text-align: center;
 }
 .cars{
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid green;
     gap: 20px;
     padding: 20px;
     justify-content: center;
@@ -292,7 +290,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     height: 150px;
 }
 
@@ -303,7 +301,7 @@ main{
 }
 
 .textCar{
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     border-top: none;
     padding: 5px 10px;
 }
