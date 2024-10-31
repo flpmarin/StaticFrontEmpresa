@@ -318,3 +318,35 @@ strong{
 p{
     font-weight: 100;
 }
+
+.clients{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 10px;
+    background-color: rgb(232, 232, 232);
+}
+
+.titleClients{
+    text-align: center;
+}
+.clientsInfo{
+    display: flex;
+    max-width: 1200px;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientsBlock{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid lightgray;
+    text-align: center;
+    gap: 20px;
+    color: gray;
+    padding: 30px;
+}
