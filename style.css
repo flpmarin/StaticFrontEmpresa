@@ -350,3 +350,17 @@ p{
     color: gray;
     padding: 30px;
 }
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 30px;
+    gap: 20px;
+    justify-content:space-around;
+    align-items: center;
+    background-color: beige;
+}
+
+.brands img{
+    width: 80px;  
+    margin: 0 auto;
+}
