@@ -50,7 +50,7 @@ nav{
 
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 90%;
+    top: 100%;
     box-shadow: 0.5px 0.5px 10px 1px gray;
     border-radius: 3px;
     display: flex;
@@ -355,9 +355,8 @@ p{
     flex-wrap: wrap;
     padding: 60px 30px;
     gap: 20px;
-    justify-content:space-around;
     align-items: center;
-    background-color: beige;
+    justify-content: space-between;
 }
 
 .brands img{
