@@ -282,6 +282,10 @@ main{
     width: 100%;
     text-align: center;
 }
+.subti > p{
+    color: blue;
+}
+
 .cars{
     display: flex;
     flex-wrap: wrap;
@@ -348,6 +352,9 @@ p{
 
 .titleClients{
     text-align: center;
+}
+.titleClients > p{
+    color: blue;
 }
 
 .clientsInfo{
