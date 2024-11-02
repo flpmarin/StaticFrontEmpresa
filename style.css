@@ -47,7 +47,6 @@ nav{
 }
 
 .menuBtn{
-
     background-color: rgb(255, 255, 255);
     position: absolute;
     top: 100%;
@@ -173,7 +172,7 @@ main{
 
 @media (max-width:600px) {
     .cardsOne {
-      margin-top: 350px; 
+      margin-top: 400px; 
     }
     .menuBtn {
         max-width: 300px; 
