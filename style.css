@@ -179,7 +179,8 @@ main{
       margin-top: 300px; 
     }
     .menuBtn {
-         max-width: 200px; 
+         max-width: 200px;
+         top: 80%;
     }
 }
 @media (max-width:450px){
@@ -193,7 +194,7 @@ main{
         padding: 0px 5px;
     }
     .menuBtn{
-        top: 85%;
+        top: 75%;
     }
     button{
         padding: 15px 30px 15px 30px;
